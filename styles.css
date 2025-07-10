@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: white;
-  background-image: url('./assets/space-background.jpg'); 
+  background-image: url('./assets/Nasa.jpg'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 header {
   text-align: center;
   padding: 40px 0;
-  background: rgba(0, 0, 0, 0.6);
+  background: lightpink;
 }
 
 nav ul {
@@ -34,10 +34,20 @@ nav ul li a {
 nav ul li a:hover {
   color: yellow;
 }
-
+main {
+  display:flex;
+  flex-direction: column;
+}
 section {
+  display: flex;
+  justify-content: space-around;
   padding: 60px 20px;
   background: rgba(0, 0, 0, 0.5);
   margin: 20px;
   border-radius: 8px;
+
+}
+
+#SpaceExploration, #moon, #sun, #mars {
+  background-color: lightpink;
 }
